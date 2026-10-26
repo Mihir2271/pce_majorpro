@@ -1,7 +1,7 @@
 # Project Memory: AquaFlow India - Urban Water Monitoring Prototype
 
 ## Status
-- Active Milestone: MILESTONE_4_COMPLETE
+- Active Milestone: MILESTONE_5_COMPLETE
 - Current Phase: Project Complete
 
 ---
@@ -32,3 +32,13 @@
   - Constitutional Mandate (Article 21 - Subhash Kumar v. State of Bihar).
   - CPHEEO 135 LPCD benchmark compliance.
   - Software & IoT engineering architecture.
+
+### [x] MILESTONE_5: Light & Dark Mode Theme Toggle
+- Add a Sun / Moon toggle button in the Header next to "Professor Briefing / Ethics Audit".
+- Implement stateful theme switching:
+  - Dark Mode: Slate-950 background, Slate-800/900 cards, Slate-100 text.
+  - Light Mode: Clean civic white / Slate-50 background, Crisp white cards with Slate-200 borders, Slate-900 high-contrast text.
+  - Smooth transitions across all components (Metrics cards, Grievance desk, Ward equity table, Cost auditor).
+- Added an accessible Sun/Moon theme toggle, retaining the existing dark mode as the default.
+- Added light-theme styles for dashboard cards, tables, form controls, status indicators, and the professor briefing drawer.
+- Theme switching updates the full application and transitions colors smoothly.

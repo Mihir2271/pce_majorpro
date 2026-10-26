@@ -1,1 +1,188 @@
 @import "tailwindcss";
+
+[data-theme="light"] {
+  color-scheme: light;
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+}
+
+[data-theme="light"].bg-slate-950,
+[data-theme="light"] .bg-slate-950 {
+  background-color: #f8fafc;
+}
+
+[data-theme="light"] .bg-slate-900,
+[data-theme="light"] .bg-slate-900\/80,
+[data-theme="light"] .bg-slate-900\/70,
+[data-theme="light"] .bg-slate-900\/60,
+[data-theme="light"] .bg-slate-900\/50,
+[data-theme="light"] .bg-slate-800,
+[data-theme="light"] .bg-slate-800\/90,
+[data-theme="light"] .bg-slate-800\/80 {
+  background-color: #ffffff;
+}
+
+[data-theme="light"] .bg-slate-700,
+[data-theme="light"] .bg-slate-700\/50 {
+  background-color: #f1f5f9;
+}
+
+[data-theme="light"] .bg-slate-600,
+[data-theme="light"] .bg-slate-600\/50 {
+  background-color: #e2e8f0;
+}
+
+[data-theme="light"] .bg-slate-700\/30 {
+  background-color: #f8fafc;
+}
+
+[data-theme="light"] .text-white,
+[data-theme="light"].text-slate-100,
+[data-theme="light"] .text-slate-100,
+[data-theme="light"].text-slate-200,
+[data-theme="light"] .text-slate-200,
+[data-theme="light"].text-slate-300,
+[data-theme="light"] .text-slate-300 {
+  color: #0f172a;
+}
+
+[data-theme="light"] .text-slate-400 {
+  color: #475569;
+}
+
+[data-theme="light"] .text-slate-500 {
+  color: #64748b;
+}
+
+[data-theme="light"] .border-slate-800,
+[data-theme="light"] .border-slate-700,
+[data-theme="light"] .border-slate-700\/60,
+[data-theme="light"] .border-slate-700\/50 {
+  border-color: #e2e8f0;
+}
+
+[data-theme="light"] .border-slate-600 {
+  border-color: #cbd5e1;
+}
+
+[data-theme="light"] input:not([type="range"]),
+[data-theme="light"] select,
+[data-theme="light"] textarea {
+  color-scheme: light;
+}
+
+[data-theme="light"] input::placeholder,
+[data-theme="light"] textarea::placeholder {
+  color: #64748b;
+}
+
+[data-theme="light"] option {
+  background-color: #ffffff;
+  color: #0f172a;
+}
+
+[data-theme="light"] .bg-rose-950,
+[data-theme="light"] .bg-rose-950\/80,
+[data-theme="light"] .bg-rose-950\/70,
+[data-theme="light"] .bg-rose-950\/60,
+[data-theme="light"] .bg-rose-950\/30 {
+  background-color: #fff1f2;
+}
+
+[data-theme="light"] .bg-amber-950,
+[data-theme="light"] .bg-amber-950\/80,
+[data-theme="light"] .bg-amber-950\/70,
+[data-theme="light"] .bg-amber-950\/60,
+[data-theme="light"] .bg-amber-950\/30 {
+  background-color: #fffbeb;
+}
+
+[data-theme="light"] .bg-teal-950,
+[data-theme="light"] .bg-teal-950\/70,
+[data-theme="light"] .bg-teal-950\/60,
+[data-theme="light"] .bg-teal-950\/30 {
+  background-color: #f0fdfa;
+}
+
+[data-theme="light"] .bg-sky-950 {
+  background-color: #f0f9ff;
+}
+
+[data-theme="light"] .bg-emerald-950 {
+  background-color: #ecfdf5;
+}
+
+[data-theme="light"] .text-rose-200,
+[data-theme="light"] .text-rose-300 {
+  color: #9f1239;
+}
+
+[data-theme="light"] .text-rose-400 {
+  color: #be123c;
+}
+
+[data-theme="light"] .text-amber-100,
+[data-theme="light"] .text-amber-200 {
+  color: #92400e;
+}
+
+[data-theme="light"] .text-amber-300 {
+  color: #b45309;
+}
+
+[data-theme="light"] .text-teal-100,
+[data-theme="light"] .text-teal-200,
+[data-theme="light"] .text-teal-300 {
+  color: #0f766e;
+}
+
+[data-theme="light"] .text-sky-200,
+[data-theme="light"] .text-sky-300 {
+  color: #0369a1;
+}
+
+[data-theme="light"] .text-emerald-200,
+[data-theme="light"] .text-emerald-300 {
+  color: #047857;
+}
+
+[data-theme="light"] .border-rose-800,
+[data-theme="light"] .border-rose-700 {
+  border-color: #fecdd3;
+}
+
+[data-theme="light"] .border-amber-800,
+[data-theme="light"] .border-amber-700 {
+  border-color: #fde68a;
+}
+
+[data-theme="light"] .border-teal-800,
+[data-theme="light"] .border-teal-700,
+[data-theme="light"] .border-teal-600 {
+  border-color: #99f6e4;
+}
+
+[data-theme="light"] .border-emerald-800,
+[data-theme="light"] .border-emerald-700 {
+  border-color: #a7f3d0;
+}
+
+[data-theme="light"] .border-sky-700 {
+  border-color: #bae6fd;
+}
+
+[data-theme="light"] button:not(:disabled),
+[data-theme="light"] article,
+[data-theme="light"] section,
+[data-theme="light"] aside,
+[data-theme="light"] header,
+[data-theme="light"] input,
+[data-theme="light"] select,
+[data-theme="light"] textarea,
+[data-theme="light"] table,
+[data-theme="light"] tr {
+  transition-property: color, background-color, border-color;
+  transition-duration: 200ms;
+}
